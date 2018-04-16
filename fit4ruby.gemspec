@@ -23,6 +23,7 @@ EOT
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
   # spec.required_ruby_version = '>=2.0'
+  spec.add_dependency "activesupport", "~> 5.1.5"
 
   spec.add_dependency('bindata', '~>2.4.3')
   spec.add_development_dependency('yard', '~>0.9.12')
