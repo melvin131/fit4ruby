@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     fit4ruby (3.0.0)
-      bindata (= 2.4.3)
+      bindata (~> 2.4.3)
 
 GEM
   remote: https://rubygems.org/
